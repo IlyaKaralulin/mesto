@@ -1,0 +1,26 @@
+.popup__input-name{
+  border: none;
+  width: 358px;
+  height: 27px;
+  margin: 54px 0 0 0;
+  transition: 0.5s;
+  border-bottom: 1px solid #bcbcc4;
+  background-color: transparent;
+
+}
+
+.popup__input-name:focus{
+  outline: none;
+
+}
+
+
+
+@media screen and (max-width: 635px){
+  .popup__input-name {
+    width: 238px;
+    left: 20px;
+
+  }
+}
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mesto</title>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body class="page">
+  <header class="header header__border">
+    <img class="header__logo" src="./image/Vector.png" alt="" />
+  </header>
+
+  <main class="main">
+    <section class="profile">
+      <div class="profile__column">
+        <img class="profile__avatar" src="./image/avatar.jpg" alt="" />
+
+        <div class="profile__info">
+          <div class="profile__info_second-row">
+            <h1 class="profile__title">Жак-Ив Кусто</h1>
+            <button class="profile__buttom_edit-rectangle">
+              <img class="profile__img-edit" src="./image/edit_button.png" alt="edit_button" />
+            </button>
+          </div>
+
+          <h2 class="profile__subtitle">Исследователь океана</h2>
+        </div>
+      </div>
+
+      <button class="profile__buttom_add-rectangle">
+        <img class="profile__img-add" src="./image/Add_button.png" alt="add_button" />
+      </button>
+    </section>
+
+    <section class="elements">
+      <div class="element">
+        <div class="element__contener-img">
+          <img class="element__image" src="./image/поле.jpg" alt="image" />
+        </div>
+        <div class="element__info">
+          <h2 class="element__title">Шахтерский поле</h2>
+          <input class="element__button-edit-cart-name" type="text">
+          <button class="element__like"></button>
+        </div>
+      </div>
+
+      <div class="element">
+        <div class="element__contener-img chayka">
+          <img class="element__image" src="./image/фото_с_птицей1.jpg" alt="image" />
+        </div>
+        <div class="element__info">
+          <h2 class="element__title">Чайки</h2>
+          <input class="element__button-edit-cart-name" type="text">
+          <button class="element__like"></button>
+        </div>
+      </div>
+
+      <div class="element">
+        <div class="element__contener-img">
+          <img class="element__image" src="./image/подсолнухи.jpg" alt="image" />
+        </div>
+        <div class="element__info">
+          <h2 class="element__title">Подсолнуховое поле</h2>
+          <input class="element__button-edit-cart-name" type="text">
+          <button class="element__like"></button>
+        </div>
+      </div>
+
+      <div class="element">
+        <div class="element__contener-img">
+          <img class="element__image" src="./image/радуга.jpg" alt="image" />
+        </div>
+        <div class="element__info">
+          <h2 class="element__title">Радуга над городом</h2>
+          <input class="element__button-edit-cart-name" type="text">
+          <button class="element__like"></button>
+        </div>
+      </div>
+
+      <div class="element">
+        <div class="element__contener-img">
+          <img class="element__image" src="./image/авиаторов.jpg " alt="image" />
+        </div>
+        <div class="element__info">
+          <h2 class="element__title">Авиаторов</h2>
+          <input class="element__button-edit-cart-name" type="text">
+          <button class="element__like"></button>
+        </div>
+      </div>
+
+      <div class="element">
+        <div class="element__contener-img">
+          <img class="element__image" src="./image/взлетный.jpg" alt="image" />
+        </div>
+        <div class="element__info">
+          <h2 class="element__title">Парк "Взлетный"</h2>
+          <input class="element__button-edit-cart-name" type="text">
+          <button class="element__like"></button>
+        </div>
+      </div>
+
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__autor">© 2020 Mesto Russia</p>
+  </footer>
+
+  <div class="overlay disable">
+    <div class="popup__container">
+      <button class="popup__button-close"></button>
+      <form class="popup-form">
+        <h1 class="popup__title">Редактировать профиль</h1>
+        <input class="popup__input-name" type="text" placeholder="Введите имя" />
+        <input class="popup__input-info" type="text" placeholder="Расскажите о себе" />
+        <button class="popup__button-save" type="submit">Сохранить</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./skript/skript.js"></script>
+</body>
+
+</html>

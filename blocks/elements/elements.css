@@ -1,0 +1,28 @@
+.elements{
+  width: 880px;
+  height: auto;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 50px 0 0 0;
+
+}
+
+
+@media screen and (max-width: 934px){
+  .elements {
+    width: 581px;
+
+  }
+}
+
+@media screen and (max-width: 635px){
+  .elements {
+    margin: 36px 0 0 0;
+    width: 282px;
+
+  }
+}
+

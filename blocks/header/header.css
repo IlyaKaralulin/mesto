@@ -1,0 +1,27 @@
+.header {
+  width: 880px;
+  height: 74px;
+  margin: 45px 0 0;
+  display: flex;
+  justify-content: flex-start;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 934px){
+  .header {
+    width: calc(100% - 54px);
+    margin: 40px 0 0;
+    height: 55px;
+
+  }
+}
+
+@media screen and (max-width: 536px){
+  .header {
+    width: 100%;
+    margin: 40px 0 0;
+    height: 55px;
+
+  }
+}
+

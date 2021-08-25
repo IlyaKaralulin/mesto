@@ -1,0 +1,9 @@
+/* .element__like{
+  transform: scale(2);
+
+} */
+
+.element__like_activ{
+  background-image: url(../../../../image/like_solid.png);
+
+}

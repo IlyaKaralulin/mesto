@@ -1,0 +1,15 @@
+.footer {
+  width: 880px;
+  height: 18px;
+  margin: 47px 0 60px 0;
+  display: flex;
+  justify-content: flex-start;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 934px){
+  .footer {
+    width: calc(100% - 54px);
+    margin: 27px 0 40px 0;
+  }
+}

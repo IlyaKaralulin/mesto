@@ -1,0 +1,19 @@
+.element__button-edit-cart-name {
+  border: none;
+  width: 192px;
+  height: 27px;
+  border-bottom: 1px solid #bcbcc4;
+  background-color: transparent;
+  margin: 25px 0 31px 21px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+  display: none;
+
+}
+
+.element__button-edit-cart-name:focus {
+  outline: none;
+
+}

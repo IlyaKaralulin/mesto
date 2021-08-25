@@ -1,0 +1,15 @@
+.element__contener-img{
+  width: 282px;
+  height: 282px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.chayka{
+  align-items: end;
+
+}

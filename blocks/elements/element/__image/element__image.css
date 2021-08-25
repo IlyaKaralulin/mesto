@@ -1,0 +1,11 @@
+.element__image{
+  height: 282px;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.element__image:hover{
+  height: 300px;
+}
